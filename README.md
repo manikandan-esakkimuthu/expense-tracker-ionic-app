@@ -1,4 +1,4 @@
-# Ionic Angular Conference App
+# Ionic Angular Expense Tracker App
 
 [![Built with Ionic](https://img.shields.io/badge/-Built%20with%20Ionic-3880FF?style=flat&logo=ionic&logoColor=white)](https://ionicframework.com)
 [![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat&logo=angular&logoColor=white)](https://angular.io)
@@ -6,27 +6,35 @@
 
 This is a **kitchen-sink demo application** built with **Ionic Framework** and **Angular**. It showcases a wide range of Ionic components and features in the context of a fictional tech conference app.
 
-**Note**: There is no actual Ionic Conference. This project is purely for demonstration purposes.
+**Note**: This is not an actual financial application. This project is created purely for learning and demonstration purposes.
 
-👉 [Try the Live Demo](https://ionic-conference-app-git-main-ionic1.vercel.app/app/tabs/schedule)
+👉 [Try the Live Demo](https://expensetracker-ionic-app.netlify.app)
 
 ## 🧱 Framework Variants
 
 This app is also available in other frameworks:
 
-- 🔗 [Ionic React Conference App](https://github.com/ionic-team/ionic-react-conference-app)
-- 🔗 [Ionic Vue Conference App](https://github.com/ionic-team/ionic-vue-conference-app)
+<!-- - 🔗 [Ionic React Conference App](https://github.com/ionic-team/ionic-react-conference-app)
+- 🔗 [Ionic Vue Conference App](https://github.com/ionic-team/ionic-vue-conference-app) -->
 - ✅ **You're viewing the Angular version**
 
 ## ✨ Features
 
-- Browse conference schedule with filtering
-- View speaker bios and session details
-- User authentication and profile management
-- Interactive maps for venue navigation
-- Push notifications support
-- Dark/Light mode toggling
-- Cross-platform support: iOS, Android, and Web
+Add and manage daily expenses
+
+Track income and total balance
+
+View monthly and weekly reports
+
+Category-wise expense tracking
+
+Simple charts and analytics
+
+User login and profile
+
+Dark/Light mode support
+
+Works on Android, iOS, and Web
 
 ## ⚙️ Getting Started
 
@@ -46,7 +54,7 @@ This app is also available in other frameworks:
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/ionic-team/ionic-conference-app.git
+    git clone https://github.com/manikandan-esakkimuthu/expense-tracker-ionic-app.git
     ```
 2. Navigate into the project:
     ```bash
