@@ -1,0 +1,58 @@
+.home-content {
+    --background: #f8f8ff;
+    padding-bottom: 80px; // gives space above bottom tabs
+}
+
+.balance-card {
+    // background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(313deg, #a859b9, #3f5f96);
+}
+
+.transaction-item {
+    border-bottom: 1px solid #eee;
+}
+
+ion-toolbar {
+    --background: #ffffff;
+    --min-height: 36px;
+    border-bottom: 1px solid #eee;
+
+    ion-icon {
+        cursor: pointer;
+        zoom: .7;
+    }
+
+    h5 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #000;
+    }
+}
+
+// .income-text {
+//     color: green !important;
+// }
+
+// .expense-text {
+//     color: red !important;
+// }
+/* Premium Card Style */
+.new-transaction-item {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 12px;
+    border: 1px solid #eee;
+    transition: 0.2s ease;
+}
+
+.new-transaction-item:hover {
+    background: #f3f3f3;
+}
+
+/* Icon rounded box */
+.icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 26px;
+}

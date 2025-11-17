@@ -1,0 +1,67 @@
+.add-transaction-content {
+    --background: #f8f8ff;
+}
+
+.add-card {
+    width: 45%;
+    background: #ede7ff;
+    color: #5e35b1;
+    border-radius: 16px;
+}
+
+.expense-card {
+    background: #ffe9e9;
+    color: #e53935;
+}
+
+.transaction-item {
+    border-bottom: 1px solid #eee;
+}
+
+ion-back-button {
+    color: #000;
+}
+
+/* Whole page BG */
+.add-transaction-content {
+    --background: #f8f9ff;
+}
+
+/* Card style for Add Income / Add Expense */
+.add-card {
+    width: 45%;
+    background: #ede7ff;
+    color: #5e35b1;
+    border-radius: 16px;
+}
+
+.expense-card {
+    background: #ffe9e9;
+    color: #e53935;
+}
+
+/* New Transaction Item Design */
+.new-transaction-item {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 12px;
+    border: 1px solid #eee;
+    transition: 0.2s ease;
+}
+
+.new-transaction-item:hover {
+    background: #f3f3f3;
+}
+
+/* Icon circle */
+.icon-box {
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    font-size: 26px;
+}
+
+/* Back button color */
+ion-back-button {
+    color: #000;
+}

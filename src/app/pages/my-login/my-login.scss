@@ -1,0 +1,140 @@
+.login-screen {
+    //--background: #d4eae7;
+    --background: linear-gradient(313deg, #a859b9, #3f5f96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    text-align: center;
+    width: 90%;
+    max-width: 380px;
+    margin: 0 auto;
+    padding-top: 8vh;
+}
+
+.logo-section {
+    margin-bottom: 25px;
+
+    .logo {
+        width: 100px;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+h2 {
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+}
+
+.input-box {
+    border-radius: 12px;
+    background: #f5f6fa;
+    margin: 12px 0;
+    padding-left: 10px;
+    --ion-item-background: transparent;
+
+    ion-icon {
+        color: #8a8a8a;
+    }
+
+    ion-input {
+        color: #111;
+    }
+}
+
+.forgot-password {
+    text-align: right;
+    margin: 5px 5px 15px;
+
+    a {
+        font-size: 0.85rem;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+
+.login-btn {
+    height: 46px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    --background: linear-gradient(90deg, #c83cb0, #34dbb8);
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+}
+
+.divider {
+    margin: 25px 0 15px;
+    font-size: 0.85rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    &::before,
+    &::after {
+        content: '';
+        height: 1px;
+        width: 30%;
+        background: #ddd;
+        position: absolute;
+    }
+
+    &::before {
+        left: 10%;
+    }
+
+    &::after {
+        right: 10%;
+    }
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+
+    ion-icon {
+        font-size: 28px;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+
+    ion-icon:hover {
+        transform: scale(1.1);
+    }
+
+    .fb {
+        color: #1877f2;
+    }
+
+    .google {
+        color: #db4437;
+    }
+
+    .whatsapp {
+        color: #25D366;
+    }
+}
+
+.signup-text {
+    font-size: 0.9rem;
+    color: #555;
+
+    a {
+        color: #1d5907;
+        font-weight: 600;
+        text-decoration: none;
+    }
+}

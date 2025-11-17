@@ -1,0 +1,101 @@
+.overview-content {
+    --background: #f8f8ff;
+}
+
+.summary-card {
+    width: 48%;
+    border-radius: 16px;
+}
+
+.income-card {
+    background: #ede7ff;
+    color: #6a1b9a;
+}
+
+.expense-card {
+    background: #ffe9e9;
+    color: #d32f2f;
+}
+
+.chart-container {
+    background: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.toggle-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: #f1f1f1;
+    font-weight: 600;
+    color: #000;
+}
+
+.toggle-btn.active {
+    background: #8a2be2;
+    color: #fff;
+}
+
+.expense-btn.active {
+    background: #ff5252;
+}
+
+.transaction-item {
+    border-bottom: 1px solid #eee;
+}
+
+.small-select {
+    font-size: 14px;
+    max-width: 120px;
+    --padding-start: 10px;
+    --padding-end: 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.custom-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    ion-title.toolbar-title {
+        flex: 1;
+        text-align: center;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    ion-buttons {
+        display: flex;
+        align-items: center;
+    }
+
+    ion-icon {
+        cursor: pointer;
+    }
+}
+
+/* Premium Card Style */
+.new-transaction-item {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 12px;
+    border: 1px solid #eee;
+    transition: 0.2s ease;
+}
+
+.new-transaction-item:hover {
+    background: #f3f3f3;
+}
+
+/* Icon Box */
+.icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 26px;
+}

@@ -1,0 +1,60 @@
+.add-expense-content {
+    --background: #f8f8ff;
+}
+
+.calendar-card {
+    background: #fff;
+    color: #000;
+}
+
+.day-box {
+    flex: 1;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.day-box.active {
+    background: #ff5252;
+    color: #fff;
+}
+
+.day-number {
+    font-weight: 600;
+}
+
+.custom-input {
+    background: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.category-btn {
+    padding: 8px 16px;
+    background: #f2f2f7;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.category-btn.selected {
+    background: #ff5252;
+    color: #fff;
+}
+
+.add-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+}
+
+.add-expense-btn {
+    background: linear-gradient(135deg, #ff5252, #ff7b00);
+    color: white;
+    border: none;
+    font-size: 16px;
+}
